@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Min store</title>
+    <title>SmartPhoneStore</title>
     <link rel="icon" href="./img/mobile.png">
     <!-- font Awsome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -31,7 +31,9 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                   
+                    <li class="nav-item active">
+                        <a class="nav-link " href="home.html">Trang chủ</a>
+                    </li>
                     <li class="nav-item active">
                         <a class="nav-link " href="index.html">Sản phẩm</a>
                     </li>
@@ -39,10 +41,16 @@
                         <a class="nav-link " href="contact.html">Liên hệ</a>
                     </li>
                     <li class="nav-item ">
+                        <a class="nav-link " href="/blog.html">Bài viết</a>
+                    </li>
+                    <li class="nav-item ">
                         <a class="nav-link " href="/login.html">Đăng nhập</a>
                     </li>
                 </ul>
-            </div>            
+            </div>   
+            <a class="nav-link cart-icon" id="btnOpenCart" onclick="openCart()" href="#">
+                <i class="fa-solid fa-cart-shopping "></i></a>
+         
         </nav>
     </header>
 
